@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<title> Egyptian Cuisine</title>
+
+<style>
+
+body{
+  background-color: rgb(167, 124, 15);
+  color:white;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow: hidden;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 14px 16px;
+}
+
+li a:hover:not(.active){
+  background-color: #111;
+}
+
+.flex-container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+.flex-container > div{
+
+  background-color: goldenrod;
+  color: white;
+  width: 350px;
+  height: 250px;
+  font-size: 20px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  border-style: hidden;
+  border-radius: 3%;
+  text-align: center;
+  place-content: center;
+  transition: width 2s, background-color 2s ease;
+}
+
+.flex-container > div:hover{
+
+  width: 500px;
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+</style>
+
+<body>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="egr1.html">Landmarks</a></li>
+<li><a href="egr2.html">Cuisine</a></li>
+</ul>
+
+<h1>Egyptian Cuisine</h1>
+
+<div class="flex-container">
+
+<div>Ful Medames is Egypt’s ancient breakfast staple, simmered fava beans spiced with cumin, garlic, and lemon, fueled pharaohs and still warms the soul of every modern Egyptian.</div>
+<div>Koshari is a hearty clash of lentils, rice, pasta, and crispy onions, crowned with spicy tomato sauce—Egypt’s beloved street food, born of ingenuity and cultural fusion.</div>
+<div>Molokhia is a Velvety green soup steeped in history, once forbidden for commoners, now a national comfort dish—jute leaves cooked with garlic, coriander, and served over rice or bread.</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>

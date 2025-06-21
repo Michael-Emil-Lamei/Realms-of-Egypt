@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<title> Egyptian Landmarks</title>
+
+<style>
+
+body{
+
+background-color:rgb(167, 124, 15);
+color:white;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li{
+float: left;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.flex-container > div {
+    background-color: goldenrod;
+    color:white;
+    width:350px;
+    height:250px;
+    font-size: 20px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    border-style: hidden;
+    border-radius: 3%;
+    text-align: center;
+    place-content: center;
+    transition: width 2s, background-color 2s ease;
+
+}
+
+.flex-container > div:hover{
+  width: 500px;
+  background-color: black;
+}
+
+
+
+
+</style>
+
+<body>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+<li><a href="egr1.html">Landmarks</a></li>
+<li><a href="egr2.html">Cuisine</a></li>
+
+
+
+
+</ul>
+<h1> Egypt's Landmarks</h1> 
+
+<div class="flex-container">
+
+<div>The great pyramids of Giza are the last standing wonder of the ancient world, the Pyramids defy time—monumental tombs of pharaohs, built with precision that still baffles modern engineers.</div>
+<div>The temples of Karnak are a sprawling stone forest of towering columns, obelisks, and sanctuaries, Karnak was the beating heart of worship, power, and mythology for over 2,000 years.</div>
+<div>The valley of kings is Hidden in the desert cliffs of Luxor, this necropolis cradled Egypt’s greatest rulers, its tombs whispering secrets of gold, curses, and the quest for immortality.</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
